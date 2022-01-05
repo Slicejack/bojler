@@ -1,5 +1,5 @@
 var gulp = require( 'gulp' );
-var sass = require( 'gulp-sass' );
+var sass = require( 'gulp-sass' )(require('sass'));
 var styleLint = require( 'gulp-stylelint' );
 var combineMq = require( 'gulp-group-css-media-queries' );
 var del = require( 'del' );

@@ -1,6 +1,7 @@
 /* =============================================================================
    GRID
    ========================================================================== */
+@use 'sass:math';
 
 /* Main wrapper
    ========================================================================== */
@@ -74,8 +75,8 @@
 
 @for $i from 1 through $grid-columns {
 	.column-#{$i} {
-		padding-left: $grid-gutter / 2;
-		padding-right: $grid-gutter / 2;
+		padding-left: math.div($grid-gutter, 2);
+		padding-right: math.div($grid-gutter, 2);
 
 		@media (max-width: $breakpoint-mobile) {
 			padding-left: $grid-gutter !important;
