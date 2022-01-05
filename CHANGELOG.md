@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [5.0.1] - 2022-01-05
+### Changed
+- Updated NPM dependencies.
+
+### Fixed
+- Fixed SASS slash-div warnings.
+
 ## [5.0.0] - 2021-05-28
 ### Changed
 - Updated gulp tasks.
