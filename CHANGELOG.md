@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [5.0.2] - 2022-02-28
+### Changed
+- Bumped node-fetch from 2.6.6 to 2.6.7.
+- Bumped sass from 1.45.2 to 1.49.9.
+
 ## [5.0.1] - 2022-01-05
 ### Changed
 - Updated NPM dependencies.
