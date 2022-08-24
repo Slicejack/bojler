@@ -2,6 +2,17 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [5.0.3] - 2022-08-24
+### Added
+- Added `.nvmrc` file.
+
+### Changed
+- Bumped del from 6.0.0 to 6.1.1.
+- Bumped inquirer from 8.2.0 to 8.2.4.
+- Bumped juice from 8.0.0 to 8.1.0.
+- Bumped sass from 1.45.2 to 1.54.5.
+- Updated `package-lock.json` file.
+
 ## [5.0.2] - 2022-02-28
 ### Changed
 - Bumped node-fetch from 2.6.6 to 2.6.7.
