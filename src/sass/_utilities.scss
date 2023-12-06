@@ -267,7 +267,7 @@
 						padding-left: $spacer-value !important;
 					}
 			        } @else if $spacing-side-key == 'vertical' {
-				        .p#{$spacing-side-value}-#{$spacer-key} {
+				        .p#{$spacing-side-value}-#{$spacer-key}-sm {
 					        padding-top: $spacer-value !important;
 					        padding-bottom: $spacer-value !important;
 				        }
