@@ -266,7 +266,12 @@
 						padding-right: $spacer-value !important;
 						padding-left: $spacer-value !important;
 					}
-				} @else {
+			        } @else if $spacing-side-key == 'vertical' {
+				        .p#{$spacing-side-value}-#{$spacer-key} {
+					        padding-top: $spacer-value !important;
+					        padding-bottom: $spacer-value !important;
+				        }
+			        } @else {
 					.p#{$spacing-side-value}-#{$spacer-key}-sm {
 						padding-#{$spacing-side-key}: $spacer-value !important;
 					}
